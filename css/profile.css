@@ -1,0 +1,124 @@
+html {
+    background: beige no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+nav{
+    background-color: bisque;
+    font-size: larger;
+}
+ul{
+    border: solid black 2px;
+    padding: 20px;
+    list-style-position: inside;
+    font-size: larger;
+    background-color: bisque;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-image{
+    position: relative;  
+    overflow: hidden; 
+    border-radius: 50%; 
+    width: 60%; 
+    height: 60%;
+    max-width: 400px;
+    
+}
+h2{
+    text-decoration: underline;
+    background: center antiquewhite;;
+    display: block;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-image:hover{
+    transform: scale(0.9);
+}
+.second-image:hover{
+    transform: scale(0.9);
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    font-size: larger;
+    padding: 20px;
+    text-decoration: underline;
+    background-color: darkcyan;
+}
+.tr1{
+    background-color: lightgrey;
+}
+.tr2{
+    background-color: lightsalmon;
+}
+.tr3{
+    background-color: lightgrey;
+}
+td{
+    padding: 2px;
+}
+.audio1::-webkit-media-controls-panel{
+    background-color: lightgray;
+}
+.audio2::-webkit-media-controls-panel{
+      background-color: lightsalmon;
+}
+.audio3::-webkit-media-controls-panel{
+      background-color: lightgray;
+}
+th, td{
+    border: 1px solid #000;
+}
+
+legend{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkmagenta;
+    font-weight: bold;
+}
+label{
+    display: inline-block;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3px;
+    padding: 5px 0px;
+    color: darkmagenta;
+}
+#submit-btn{
+    display: inline-block;
+    margin: 13px;
+    background-color: darkmagenta;
+    color: lightpink;
+}
+fieldset{
+    border: solid 10px black;
+    border-color: lightpink;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.break{
+    background-color: darkkhaki;
+    display: block;
+    width: max-content;
+    height: 50px;
+}
+nav:hover{
+    background-color: lightcoral;
+    color: brown;
+    font-size: 130%;
+}

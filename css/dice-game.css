@@ -1,0 +1,41 @@
+html{
+    text-align: center;
+    background-color: bisque;
+}
+ul{
+    list-style-position: inside;
+    border: solid 8px lightsalmon;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    background: #eee;
+    border-radius: 20px;
+}
+li{
+    border-bottom: rgba(214, 43, 43, 0.8) 2px solid;
+    margin-bottom: 4px;
+}
+button{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+img{
+    bottom: 15%;
+  position: absolute;
+  bottom: 50px;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 500px);
+   }
+  100% {
+    left: 0;
+  }
+}

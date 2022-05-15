@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Matching Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/css/matching-game.css">
+</head>
+<body>
+    <h1>Test</h1>
+    <section id="fullscreen">
+        <h1 id="title">
+            <div class="cssload-preloader">
+                <div class="cssload-preloader-box">
+                    <div>M</div>
+                    <div>a</div>
+                    <div>t</div>
+                    <div>c</div>
+                    <div>h</div>
+                    <div>i</div>
+                    <div>n</div>
+                    <div>g</div>
+                    <div>G</div>
+                    <div>a</div>
+                    <div>m</div>
+                    <div>e</div>
+                </div>
+            </div>
+        </h1>
+        <p>The left side has one extra smiley than the right side, find it.</p>
+        <h1 id="game-score">0</h1>
+        <h3 id="highscore">A Previously Made Highscore Was 0 <br>Could You Beat It?</h3>
+        <fieldset id="choice">
+
+            <legend>Choose Your Preferred Difficulty</legend>
+
+            <label for="baby" id="first">Baby</label>
+            <input type="radio" id="baby" name="difficulty" value="baby">
+
+            <label for="easy" id="second">Easy</label>
+            <input type="radio" id="easy" name="difficulty" value="easy">
+
+            <label for="mediocre" id="third">Mediocre</label>
+            <input type="radio" id="mediocre" name="difficulty" value="mediocre">
+
+            <label for="hard" id="fourth">Hard</label>
+            <input type="radio" id="hard" name="difficulty" value="hard">
+
+            <label for="challenging" id="fifth">Challenging</label>
+            <input type="radio" id="challenging" name="difficulty" value="challenging">
+
+            <label for="beastly" id="sixth">Beastly</label>
+            <input type="radio" id="beastly" name="difficulty" value="beastly">
+
+            <label for="legendary" id="seventh">Legendary</label>
+            <input type="radio" id="legendary" name="difficulty" value="legendary">
+
+            <label for="impossible" id="eight">Impossible</label>
+            <input type="radio" id="impossible" name="difficulty" value="impossible">
+
+            <label for="FNAF" id="nine">FNAF?</label>
+            <input type="radio" id="FNAF" name="difficulty" value="impossible">
+
+        </fieldset>
+
+        <audio src="/mp3s/Y2Mate.is - Five Nights at Freddy's 2 Song - The Living Tombstone (FNAF2)-gk-aCL6eyGc-160k-1645117580854-[AudioTrimmer.com].mp3" id="audioFnafSong" loop></audio>
+        <audio src="/mp3s/Y2Mate.is - FNAF Jumpscare Scream - Sound Effect (HD)--GXMLrWj-bc-160k-1645368661465.mp3" id="audioScare"></audio>
+        <audio src="/mp3s/Y2Mate.is - Boss Encountered-xuYUGhJwNtI-160k-1652586124189.mp3" id="audioImpossible" loop></audio>
+        <audio src="/mp3s/zapsplat_multimedia_game_sound_harp_glissando_ascend_positive_001_81362.mp3" id="audio"></audio>
+        <audio src="/mp3s/zapsplat_multimedia_game_sound_thin_harsh_tone_descending_negative_error_002_81132.mp3" id="audio2"></audio>
+        <div id="leftSide"></div>
+        <div id="rightSide"></div>
+    </section>
+
+    <script src="/js/matching-game.js"></script>
+
+</body>
+</html>
