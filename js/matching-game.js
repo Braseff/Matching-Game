@@ -149,13 +149,14 @@ function nextLevel() {
     }
     else if(localStorage.getItem('difficulty') == 'FNAF') {
         numberOfFaces -= 1;
+        fnafScore += 1;
     }
     else {
         alert("Choose A Difficulty!")
         document.location.reload(true)
     }
     score += 1;
-    fnafScore += 1;
+
     //highscore
         if (score > highscore) {
     highscore = score;
